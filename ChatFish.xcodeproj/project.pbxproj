@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182CF5CE29073221009059F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CF5CD29073221009059F2 /* AppDelegate.swift */; };
+		182CF5D029073221009059F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CF5CF29073221009059F2 /* SceneDelegate.swift */; };
+		182CF5D229073221009059F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CF5D129073221009059F2 /* ViewController.swift */; };
+		182CF5D529073221009059F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182CF5D329073221009059F2 /* Main.storyboard */; };
+		182CF5D729073223009059F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182CF5D629073223009059F2 /* Assets.xcassets */; };
+		182CF5DA29073223009059F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182CF5D829073223009059F2 /* LaunchScreen.storyboard */; };
+		182CF5E529073223009059F2 /* ChatFishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CF5E429073223009059F2 /* ChatFishTests.swift */; };
+		182CF5EF29073223009059F2 /* ChatFishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CF5EE29073223009059F2 /* ChatFishUITests.swift */; };
+		182CF5F129073223009059F2 /* ChatFishUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CF5F029073223009059F2 /* ChatFishUITestsLaunchTests.swift */; };
+		182CF5FE29073B21009059F2 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CF5FD29073B21009059F2 /* SignUpVC.swift */; };
+		18970ECE290D7A1600570993 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18970ECD290D7A1600570993 /* GoogleService-Info.plist */; };
+		18C871D52907D66300E033E3 /* ChattingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C871D42907D66300E033E3 /* ChattingVC.swift */; };
+		18C871D72908355200E033E3 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C871D62908355200E033E3 /* Helper.swift */; };
+		18C871D9290839D700E033E3 /* ChattingTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C871D8290839D700E033E3 /* ChattingTableCell.swift */; };
+		18C871DB29083AF900E033E3 /* ToDoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C871DA29083AF900E033E3 /* ToDoListVC.swift */; };
+		18C871DD29083B7700E033E3 /* todoTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C871DC29083B7700E033E3 /* todoTableCell.swift */; };
+		18C871DF29083D0800E033E3 /* chatListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C871DE29083D0800E033E3 /* chatListCell.swift */; };
+		18C871E129083D4300E033E3 /* ChatListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C871E029083D4300E033E3 /* ChatListVC.swift */; };
+		3F2490AAF2C7324612CD01A8 /* Pods_ChatFish_ChatFishUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E4EB266A14EA05820AB835 /* Pods_ChatFish_ChatFishUITests.framework */; };
+		7E018DD3B9B722C2D1655FD4 /* Pods_ChatFish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E17E421354AADCD6AD0860 /* Pods_ChatFish.framework */; };
+		AD3246E0B63D1BEE87FE5BE8 /* Pods_ChatFishTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C937B970BEEF835A2FB4094 /* Pods_ChatFishTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		182CF5E129073223009059F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182CF5C229073221009059F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 182CF5C929073221009059F2;
+			remoteInfo = ChatFish;
+		};
+		182CF5EB29073223009059F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182CF5C229073221009059F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 182CF5C929073221009059F2;
+			remoteInfo = ChatFish;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C937B970BEEF835A2FB4094 /* Pods_ChatFishTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatFishTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		182CF5CA29073221009059F2 /* ChatFish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatFish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		182CF5CD29073221009059F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		182CF5CF29073221009059F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		182CF5D129073221009059F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		182CF5D429073221009059F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		182CF5D629073223009059F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		182CF5D929073223009059F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		182CF5DB29073223009059F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182CF5E029073223009059F2 /* ChatFishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatFishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		182CF5E429073223009059F2 /* ChatFishTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatFishTests.swift; sourceTree = "<group>"; };
+		182CF5EA29073223009059F2 /* ChatFishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatFishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		182CF5EE29073223009059F2 /* ChatFishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatFishUITests.swift; sourceTree = "<group>"; };
+		182CF5F029073223009059F2 /* ChatFishUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatFishUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		182CF5FD29073B21009059F2 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		18970ECD290D7A1600570993 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		18C871D42907D66300E033E3 /* ChattingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingVC.swift; sourceTree = "<group>"; };
+		18C871D62908355200E033E3 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		18C871D8290839D700E033E3 /* ChattingTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingTableCell.swift; sourceTree = "<group>"; };
+		18C871DA29083AF900E033E3 /* ToDoListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListVC.swift; sourceTree = "<group>"; };
+		18C871DC29083B7700E033E3 /* todoTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoTableCell.swift; sourceTree = "<group>"; };
+		18C871DE29083D0800E033E3 /* chatListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatListCell.swift; sourceTree = "<group>"; };
+		18C871E029083D4300E033E3 /* ChatListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListVC.swift; sourceTree = "<group>"; };
+		32606FF632BCDD14824526AB /* Pods-ChatFish-ChatFishUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatFish-ChatFishUITests.debug.xcconfig"; path = "Target Support Files/Pods-ChatFish-ChatFishUITests/Pods-ChatFish-ChatFishUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		379685413F1AEB03183B7E9E /* Pods-ChatFish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatFish.release.xcconfig"; path = "Target Support Files/Pods-ChatFish/Pods-ChatFish.release.xcconfig"; sourceTree = "<group>"; };
+		8C9196C7A65EE3E64F350094 /* Pods-ChatFish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatFish.debug.xcconfig"; path = "Target Support Files/Pods-ChatFish/Pods-ChatFish.debug.xcconfig"; sourceTree = "<group>"; };
+		9048F7303AADF0B35FB18A91 /* Pods-ChatFishTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatFishTests.debug.xcconfig"; path = "Target Support Files/Pods-ChatFishTests/Pods-ChatFishTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B21DFD8FF17C4BBF0654290F /* Pods-ChatFishTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatFishTests.release.xcconfig"; path = "Target Support Files/Pods-ChatFishTests/Pods-ChatFishTests.release.xcconfig"; sourceTree = "<group>"; };
+		B5E17E421354AADCD6AD0860 /* Pods_ChatFish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatFish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28FE49D091EFB964F8298B0 /* Pods-ChatFish-ChatFishUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatFish-ChatFishUITests.release.xcconfig"; path = "Target Support Files/Pods-ChatFish-ChatFishUITests/Pods-ChatFish-ChatFishUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D1E4EB266A14EA05820AB835 /* Pods_ChatFish_ChatFishUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatFish_ChatFishUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		182CF5C729073221009059F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E018DD3B9B722C2D1655FD4 /* Pods_ChatFish.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182CF5DD29073223009059F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3246E0B63D1BEE87FE5BE8 /* Pods_ChatFishTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182CF5E729073223009059F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2490AAF2C7324612CD01A8 /* Pods_ChatFish_ChatFishUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182CF5C129073221009059F2 = {
+			isa = PBXGroup;
+			children = (
+				182CF5CC29073221009059F2 /* ChatFish */,
+				182CF5E329073223009059F2 /* ChatFishTests */,
+				182CF5ED29073223009059F2 /* ChatFishUITests */,
+				182CF5CB29073221009059F2 /* Products */,
+				4787DC36AB80D9891FE16CF8 /* Pods */,
+				69531073B9456FA5AD602E45 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		182CF5CB29073221009059F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182CF5CA29073221009059F2 /* ChatFish.app */,
+				182CF5E029073223009059F2 /* ChatFishTests.xctest */,
+				182CF5EA29073223009059F2 /* ChatFishUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		182CF5CC29073221009059F2 /* ChatFish */ = {
+			isa = PBXGroup;
+			children = (
+				182CF5CD29073221009059F2 /* AppDelegate.swift */,
+				182CF5CF29073221009059F2 /* SceneDelegate.swift */,
+				182CF5D129073221009059F2 /* ViewController.swift */,
+				18C871D42907D66300E033E3 /* ChattingVC.swift */,
+				18C871D8290839D700E033E3 /* ChattingTableCell.swift */,
+				18C871D62908355200E033E3 /* Helper.swift */,
+				182CF5FD29073B21009059F2 /* SignUpVC.swift */,
+				182CF5D329073221009059F2 /* Main.storyboard */,
+				18C871DA29083AF900E033E3 /* ToDoListVC.swift */,
+				18C871DC29083B7700E033E3 /* todoTableCell.swift */,
+				18C871DE29083D0800E033E3 /* chatListCell.swift */,
+				18C871E029083D4300E033E3 /* ChatListVC.swift */,
+				182CF5D629073223009059F2 /* Assets.xcassets */,
+				182CF5D829073223009059F2 /* LaunchScreen.storyboard */,
+				182CF5DB29073223009059F2 /* Info.plist */,
+				18970ECD290D7A1600570993 /* GoogleService-Info.plist */,
+			);
+			path = ChatFish;
+			sourceTree = "<group>";
+		};
+		182CF5E329073223009059F2 /* ChatFishTests */ = {
+			isa = PBXGroup;
+			children = (
+				182CF5E429073223009059F2 /* ChatFishTests.swift */,
+			);
+			path = ChatFishTests;
+			sourceTree = "<group>";
+		};
+		182CF5ED29073223009059F2 /* ChatFishUITests */ = {
+			isa = PBXGroup;
+			children = (
+				182CF5EE29073223009059F2 /* ChatFishUITests.swift */,
+				182CF5F029073223009059F2 /* ChatFishUITestsLaunchTests.swift */,
+			);
+			path = ChatFishUITests;
+			sourceTree = "<group>";
+		};
+		4787DC36AB80D9891FE16CF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C9196C7A65EE3E64F350094 /* Pods-ChatFish.debug.xcconfig */,
+				379685413F1AEB03183B7E9E /* Pods-ChatFish.release.xcconfig */,
+				32606FF632BCDD14824526AB /* Pods-ChatFish-ChatFishUITests.debug.xcconfig */,
+				C28FE49D091EFB964F8298B0 /* Pods-ChatFish-ChatFishUITests.release.xcconfig */,
+				9048F7303AADF0B35FB18A91 /* Pods-ChatFishTests.debug.xcconfig */,
+				B21DFD8FF17C4BBF0654290F /* Pods-ChatFishTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		69531073B9456FA5AD602E45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5E17E421354AADCD6AD0860 /* Pods_ChatFish.framework */,
+				D1E4EB266A14EA05820AB835 /* Pods_ChatFish_ChatFishUITests.framework */,
+				0C937B970BEEF835A2FB4094 /* Pods_ChatFishTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		182CF5C929073221009059F2 /* ChatFish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182CF5F429073223009059F2 /* Build configuration list for PBXNativeTarget "ChatFish" */;
+			buildPhases = (
+				ECC1C23F81AF0C1514CA3220 /* [CP] Check Pods Manifest.lock */,
+				182CF5C629073221009059F2 /* Sources */,
+				182CF5C729073221009059F2 /* Frameworks */,
+				182CF5C829073221009059F2 /* Resources */,
+				2AB8BD6BA0E37B590BD24B5D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatFish;
+			productName = ChatFish;
+			productReference = 182CF5CA29073221009059F2 /* ChatFish.app */;
+			productType = "com.apple.product-type.application";
+		};
+		182CF5DF29073223009059F2 /* ChatFishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182CF5F729073223009059F2 /* Build configuration list for PBXNativeTarget "ChatFishTests" */;
+			buildPhases = (
+				0230C4BC8D36C09486836520 /* [CP] Check Pods Manifest.lock */,
+				182CF5DC29073223009059F2 /* Sources */,
+				182CF5DD29073223009059F2 /* Frameworks */,
+				182CF5DE29073223009059F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				182CF5E229073223009059F2 /* PBXTargetDependency */,
+			);
+			name = ChatFishTests;
+			productName = ChatFishTests;
+			productReference = 182CF5E029073223009059F2 /* ChatFishTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		182CF5E929073223009059F2 /* ChatFishUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182CF5FA29073223009059F2 /* Build configuration list for PBXNativeTarget "ChatFishUITests" */;
+			buildPhases = (
+				CAEFDF98E72CB60908D84ECF /* [CP] Check Pods Manifest.lock */,
+				182CF5E629073223009059F2 /* Sources */,
+				182CF5E729073223009059F2 /* Frameworks */,
+				182CF5E829073223009059F2 /* Resources */,
+				41A7F0EB80D1A76FAA46C43A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				182CF5EC29073223009059F2 /* PBXTargetDependency */,
+			);
+			name = ChatFishUITests;
+			productName = ChatFishUITests;
+			productReference = 182CF5EA29073223009059F2 /* ChatFishUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182CF5C229073221009059F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					182CF5C929073221009059F2 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					182CF5DF29073223009059F2 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 182CF5C929073221009059F2;
+					};
+					182CF5E929073223009059F2 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 182CF5C929073221009059F2;
+					};
+				};
+			};
+			buildConfigurationList = 182CF5C529073221009059F2 /* Build configuration list for PBXProject "ChatFish" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 182CF5C129073221009059F2;
+			productRefGroup = 182CF5CB29073221009059F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				182CF5C929073221009059F2 /* ChatFish */,
+				182CF5DF29073223009059F2 /* ChatFishTests */,
+				182CF5E929073223009059F2 /* ChatFishUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		182CF5C829073221009059F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182CF5DA29073223009059F2 /* LaunchScreen.storyboard in Resources */,
+				18970ECE290D7A1600570993 /* GoogleService-Info.plist in Resources */,
+				182CF5D729073223009059F2 /* Assets.xcassets in Resources */,
+				182CF5D529073221009059F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182CF5DE29073223009059F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182CF5E829073223009059F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0230C4BC8D36C09486836520 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChatFishTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AB8BD6BA0E37B590BD24B5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChatFish/Pods-ChatFish-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChatFish/Pods-ChatFish-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChatFish/Pods-ChatFish-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41A7F0EB80D1A76FAA46C43A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChatFish-ChatFishUITests/Pods-ChatFish-ChatFishUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChatFish-ChatFishUITests/Pods-ChatFish-ChatFishUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChatFish-ChatFishUITests/Pods-ChatFish-ChatFishUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAEFDF98E72CB60908D84ECF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChatFish-ChatFishUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECC1C23F81AF0C1514CA3220 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChatFish-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		182CF5C629073221009059F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182CF5FE29073B21009059F2 /* SignUpVC.swift in Sources */,
+				182CF5D229073221009059F2 /* ViewController.swift in Sources */,
+				18C871E129083D4300E033E3 /* ChatListVC.swift in Sources */,
+				182CF5CE29073221009059F2 /* AppDelegate.swift in Sources */,
+				18C871DD29083B7700E033E3 /* todoTableCell.swift in Sources */,
+				182CF5D029073221009059F2 /* SceneDelegate.swift in Sources */,
+				18C871DF29083D0800E033E3 /* chatListCell.swift in Sources */,
+				18C871D52907D66300E033E3 /* ChattingVC.swift in Sources */,
+				18C871D9290839D700E033E3 /* ChattingTableCell.swift in Sources */,
+				18C871DB29083AF900E033E3 /* ToDoListVC.swift in Sources */,
+				18C871D72908355200E033E3 /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182CF5DC29073223009059F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182CF5E529073223009059F2 /* ChatFishTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182CF5E629073223009059F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182CF5F129073223009059F2 /* ChatFishUITestsLaunchTests.swift in Sources */,
+				182CF5EF29073223009059F2 /* ChatFishUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		182CF5E229073223009059F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 182CF5C929073221009059F2 /* ChatFish */;
+			targetProxy = 182CF5E129073223009059F2 /* PBXContainerItemProxy */;
+		};
+		182CF5EC29073223009059F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 182CF5C929073221009059F2 /* ChatFish */;
+			targetProxy = 182CF5EB29073223009059F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		182CF5D329073221009059F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182CF5D429073221009059F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		182CF5D829073223009059F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182CF5D929073223009059F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		182CF5F229073223009059F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		182CF5F329073223009059F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		182CF5F529073223009059F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C9196C7A65EE3E64F350094 /* Pods-ChatFish.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6TX36CBY88;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChatFish/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiazhussain.ChatFish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		182CF5F629073223009059F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 379685413F1AEB03183B7E9E /* Pods-ChatFish.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6TX36CBY88;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChatFish/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiazhussain.ChatFish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		182CF5F829073223009059F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9048F7303AADF0B35FB18A91 /* Pods-ChatFishTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6TX36CBY88;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiazhussain.ChatFishTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatFish.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChatFish";
+			};
+			name = Debug;
+		};
+		182CF5F929073223009059F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B21DFD8FF17C4BBF0654290F /* Pods-ChatFishTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6TX36CBY88;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiazhussain.ChatFishTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatFish.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChatFish";
+			};
+			name = Release;
+		};
+		182CF5FB29073223009059F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32606FF632BCDD14824526AB /* Pods-ChatFish-ChatFishUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6TX36CBY88;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiazhussain.ChatFishUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChatFish;
+			};
+			name = Debug;
+		};
+		182CF5FC29073223009059F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C28FE49D091EFB964F8298B0 /* Pods-ChatFish-ChatFishUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6TX36CBY88;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiazhussain.ChatFishUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChatFish;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182CF5C529073221009059F2 /* Build configuration list for PBXProject "ChatFish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182CF5F229073223009059F2 /* Debug */,
+				182CF5F329073223009059F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182CF5F429073223009059F2 /* Build configuration list for PBXNativeTarget "ChatFish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182CF5F529073223009059F2 /* Debug */,
+				182CF5F629073223009059F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182CF5F729073223009059F2 /* Build configuration list for PBXNativeTarget "ChatFishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182CF5F829073223009059F2 /* Debug */,
+				182CF5F929073223009059F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182CF5FA29073223009059F2 /* Build configuration list for PBXNativeTarget "ChatFishUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182CF5FB29073223009059F2 /* Debug */,
+				182CF5FC29073223009059F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 182CF5C229073221009059F2 /* Project object */;
+}

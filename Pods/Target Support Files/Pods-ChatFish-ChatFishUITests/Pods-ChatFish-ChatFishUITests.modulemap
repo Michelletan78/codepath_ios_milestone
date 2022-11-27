@@ -1,0 +1,6 @@
+framework module Pods_ChatFish_ChatFishUITests {
+  umbrella header "Pods-ChatFish-ChatFishUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
