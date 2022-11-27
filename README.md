@@ -63,7 +63,7 @@ Original App Design Project - README Template
    * User can add to do list items.
    * User can check off to do list items.
    * User can go back to chat screen.
-
+<imag src ="https://i.imgur.com/aIz1ZQT.gif">
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
