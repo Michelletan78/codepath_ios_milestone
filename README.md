@@ -10,8 +10,7 @@ Original App Design Project - README Template
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
 2. [Schema](#Schema)
-
-## Overview
+https://youtu.be/-gpOvn7ZXYA## Overview
 ### Description
  A simple chat app base on ios that allow group of people to chat and able to make todo list for work tracing.
 [Description of your app]
@@ -24,6 +23,7 @@ Original App Design Project - README Template
 - **Market:** This app is for people who working on the same project.
 - **Habit:** This app can be use for share ideas and communicate for work.
 - **Scope:** We first start with one group chat, then can add more group in the future
+![68747470733a2f2f692e696d6775722e636f6d2f61497a315a51542e676966](https://user-images.githubusercontent.com/25970512/204117987-a8399850-1e74-4aa6-899d-9939f99d9dac.gif)
 
 ## Product Spec
 
@@ -38,6 +38,8 @@ Original App Design Project - README Template
 - [x] User is able to see past message from th user and other user.
 - [x] User is able to see who sent the message.
 - [x] User is able to create todo list items.
+![68747470733a2f2f692e696d6775722e636f6d2f637461586c6c632e676966](https://user-images.githubusercontent.com/25970512/204117996-40beb376-b07f-42f2-b4e2-2d9adc37d3fd.gif)
+
 
  [fill in your required user stories here]
 
@@ -48,6 +50,8 @@ Original App Design Project - README Template
 - [x] User is able to check off todo list items.
 
  * [fill in your required user stories here]
+ 
+![68747470733a2f2f692e696d6775722e636f6d2f6d6b61587278332e676966](https://user-images.githubusercontent.com/25970512/204117998-454d0003-36f2-4815-8309-9da95d5f2e22.gif)
 
 ### 2. Screen Archetypes
 
